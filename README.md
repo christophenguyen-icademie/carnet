@@ -28,9 +28,9 @@ Le dossier d’exécution de PHP étant préalablement configuré dans la variab
  
  La base de données peut être réinitialisée de la manière suivante : 
  
- 1 - Supprimer le fichier PROJET/var/data.db
- 2 - Rendez-vous à la racine du projet et exécutez :
-      php bin/console doctrine:database:create
-      php bin/console doctrine:schema:update --force --complete
- 3 - Un échantillon de contacts est automatiquement généré lors du premier lancement du site (ce qui explique le temps de      chargement plus long de la page)
+  1 - Supprimer le fichier PROJET/var/data.db
+  2 - Rendez-vous à la racine du projet et exécutez :
+        php bin/console doctrine:database:create
+        php bin/console doctrine:schema:update --force --complete
+  3 - Un échantillon de contacts est automatiquement généré lors du premier lancement du site (ce qui explique le temps de      chargement plus long de la page)
       
