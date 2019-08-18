@@ -30,7 +30,7 @@ Création d'un carnet d'adresse dans le cadre de l'évaluation TED Archiweb 2019
  
   - Supprimer le fichier PROJET/var/data.db
   - Rendez-vous à la racine du projet et exécutez :
-        php bin/console doctrine:database:create
-        php bin/console doctrine:schema:update --force --complete
+      - php bin/console doctrine:database:create
+      - php bin/console doctrine:schema:update --force --complete
   - Un échantillon de contacts est automatiquement généré lors du premier lancement du site (ce qui explique le temps de      chargement plus long de la page)
       
