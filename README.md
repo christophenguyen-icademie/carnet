@@ -3,22 +3,22 @@ Création d'un carnet d'adresse dans le cadre de l'évaluation TED Archiweb 2019
 
 Installation du site web :
 
-    Depuis le code source : 
+Depuis le code source : 
     
-      Pré-requis : 
+Pré-requis : 
       
-        Composer >= 1.8.4
-        Moteur PHP >= 7.3.3
-        Symfony CLI >= 4.5.2
-        !!L’extension « pdo_sqlite » activée dans le fichier PHP.ini
-        !!L’extension « fileinfo » activée dans le fichier PHP.ini
-        Le dossier d’exécution de PHP étant préalablement configuré dans la variable d’environnement PATH…
+Composer >= 1.8.4
+Moteur PHP >= 7.3.3
+Symfony CLI >= 4.5.2
+!!L’extension « pdo_sqlite » activée dans le fichier PHP.ini
+!!L’extension « fileinfo » activée dans le fichier PHP.ini
+Le dossier d’exécution de PHP étant préalablement configuré dans la variable d’environnement PATH…
 
     
-      1 - Téléchargez les sources dans le dossier de votre choix
-      2 - Rendez-vous à la racine du projet et exécutez "composer install" afin de récupérer l'ensemble des dépendances
-      3 - Exécutez le serveur en validant la commande "symfony server:start"
-      4 - Relevez l'url d'accès au site, par défaut et si le port est disponible : "http://localhost:8000"
+1 - Téléchargez les sources dans le dossier de votre choix
+2 - Rendez-vous à la racine du projet et exécutez "composer install" afin de récupérer l'ensemble des dépendances
+3 - Exécutez le serveur en validant la commande "symfony server:start"
+4 - Relevez l'url d'accès au site, par défaut et si le port est disponible : "http://localhost:8000"
       
       
       
