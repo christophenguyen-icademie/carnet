@@ -1,4 +1,4 @@
-# carnet
+# carnet d'adresse
 Création d'un carnet d'adresse dans le cadre de l'évaluation TED Archiweb 2019 - Développement d’un Framework avec PHP (Symfony)
 
 Installation du site web :
@@ -15,10 +15,10 @@ Pré-requis :
     Le dossier d’exécution de PHP étant préalablement configuré dans la variable d’environnement PATH…
 
     
-1 - Téléchargez les sources dans le dossier de votre choix
-2 - Rendez-vous à la racine du projet et exécutez "composer install" afin de récupérer l'ensemble des dépendances
-3 - Exécutez le serveur en validant la commande "symfony server:start"
-4 - Relevez l'url d'accès au site, par défaut et si le port est disponible : "http://localhost:8000"
+ 1 - Téléchargez les sources dans le dossier de votre choix
+ 2 - Rendez-vous à la racine du projet et exécutez "composer install" afin de récupérer l'ensemble des dépendances
+ 3 - Exécutez le serveur en validant la commande "symfony server:start"
+ 4 - Relevez l'url d'accès au site, par défaut et si le port est disponible : "http://localhost:8000"
       
       
       
