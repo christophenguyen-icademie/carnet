@@ -22,7 +22,22 @@ Création d'un carnet d'adresse dans le cadre de l'évaluation TED Archiweb 2019
    - Exécutez le serveur en validant la commande 
      *symfony server:start*
    - Relevez l'url d'accès au site, par défaut et si le port est disponible : http://localhost:8000
-      
+  
+  
+  **Docker :**
+  
+    Pré-requis : 
+    Docker (testé >= 19.03)
+  
+   - téléchargez l'image depuis le DockerHub : 
+    *docker pull nguyenvanchristophe/carnet-adresse*
+   
+   - exécutez un container avec par exemple la commande suivante : 
+    *docker run -d -p 8000:8000 nguyenvanchristophe/carnet-adresse*
+    
+   - le site est disponible à l'adresse : 
+     *http://localhost:8000*
+  
       
       
  
