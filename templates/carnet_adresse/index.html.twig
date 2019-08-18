@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+{%  block stylesheets %}
+    <link href="/css/carnet.css" rel="stylesheet">
+{%  endblock %}
+{% block body %}
+    <div class="text-center">
+        {% if carnet.contacts is empty %}
+            <p class="text-center">Le carnet est vide</p>
+        {% endif %}
+        {% for contact in carnet.contacts  %}
+        <div class="card contact-card" data-carnet="{{ codecarnet }}" data-contact="{{ contact.code }}">
+
+            <div class="card-body">
+                <div class="contact-informationsprincipales">
+                    <div class="contact-photo">
+
+                        {% if contact.getPhotoDeProfil() is empty %}
+                            <img class="img-thumbnail address-picture" src="/images/pas_de_photo.png"><br>
+                        {% else %}
+                            <img alt="Photo de profil" src="data:image/png;base64,{{ contact.getPhotoDeProfilBase64()}}" />
+                        {% endif %}
+                    </div>
+                    <div class="contact-identite">
+                        <div class="contact-nom">
+                            {{ contact.nom }}
+                        </div>
+                        <div class="contact-prenom">
+                            {{ contact.prenom }}
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-profession">
+                    {% if contact.getProfession() is empty %}
+                        -
+                    {% else %}
+                        {{ contact.getProfession().getLibelle() }}
+                    {% endif %}
+                </div>
+                <div class="contact-telephone">
+                   <a href="tel:{{ contact.telephone }}"><i class="fa fa-phone"></i> {{ contact.telephone }}</a>
+                </div>
+                <div class="contact-email">
+                    <a href="mailto:{{ contact.email }}"><i class="fa fa-envelope"></i> {{ contact.email }}</a>
+                </div>
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}
+
+{% block javascripts %}
+    <script src="/js/carnet.js"></script>
+{% endblock %}
