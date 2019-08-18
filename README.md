@@ -1,7 +1,7 @@
 # carnet d'adresse
 Création d'un carnet d'adresse dans le cadre de l'évaluation TED Archiweb 2019 - Développement d’un Framework avec PHP (Symfony)
 
-Installation du site web :
+**Installation du site web :**
 
 Depuis le code source : 
     
@@ -24,7 +24,7 @@ Pré-requis :
       
  
  
- A NOTER : 
+ **A NOTER :** 
  
  La base de données peut être réinitialisée de la manière suivante : 
  
